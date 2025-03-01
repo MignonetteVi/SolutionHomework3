@@ -1,3 +1,5 @@
+package Assignment1;
+
 import java.util.List;
 class Dungeon {
     private String name;
@@ -14,7 +16,7 @@ class Dungeon {
     }
 
     public void showDungeon() {
-        System.out.println("Dungeon: " + name);
+        System.out.println("Assignment1.Dungeon: " + name);
         System.out.println("Rooms: " + rooms.size());
         System.out.println("NPCs: " + npcs.size());
     }

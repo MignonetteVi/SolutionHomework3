@@ -1,3 +1,5 @@
+package Assignment1;
+
 interface IDungeonBuilder {
     IDungeonBuilder setDungeonName(String name);
 
