@@ -9,9 +9,9 @@ public class MUDPrototypeDemo {
 
         clonedNPC1.setHealth(clonedNPC1.getHealth()-50); // Уменьшаем здоровье одного клона
 
-        System.out.println("Original NPC: " + prototypeNPC);
-        System.out.println("Clone 1 (damaged): " + clonedNPC1);
-        System.out.println("Clone 2 (normal): " + clonedNPC2);
+        System.out.println("Original NPC: " + prototypeNPC.getName());
+        System.out.println("Clone 1 (damaged): " + clonedNPC1.getHealth());
+        System.out.println("Clone 2 (normal): " + clonedNPC2.getHealth());
     }
 }
 
